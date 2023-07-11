@@ -1,8 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import SlideUp from "./SlideUp";
-import Image from "next/image";
 
 import { BsArrowRightSquare, BsGithub } from "react-icons/bs";
 
@@ -37,14 +37,6 @@ const projects = [
     image: "/images/hoobank.png",
     github: "https://github.com/BrunoJSC/hoobank",
     link: "https://hoobank-plum.vercel.app",
-  },
-  {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/images/kator.png",
-    github: "",
-    link: "https://kator-family-photos.vercel.app",
   },
 ];
 
