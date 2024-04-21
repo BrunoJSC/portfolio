@@ -9,6 +9,7 @@ import {
 import {MenuIcon, Moon, Sun} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import * as React from "react";
+import Link from "next/link";
 
 export function Menu() {
     return (
@@ -19,12 +20,26 @@ export function Menu() {
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-                <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                <DropdownMenuSeparator/>
-                <DropdownMenuItem>Profile</DropdownMenuItem>
-                <DropdownMenuItem>Billing</DropdownMenuItem>
-                <DropdownMenuItem>Team</DropdownMenuItem>
-                <DropdownMenuItem>Subscription</DropdownMenuItem>
+                <DropdownMenuItem>
+                    <Link href="#Sobre">
+                        Sobre
+                    </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                    <Link href="#Skills">
+                        Skills
+                    </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                    <Link href="#Projetos">
+                        Projetos
+                    </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                    <Link href="#Contato">
+                        Contato
+                    </Link>
+                </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
 
