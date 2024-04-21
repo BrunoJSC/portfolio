@@ -24,10 +24,10 @@ export function About() {
                         projetos inovadores. Vamos conectar e criar algo especial juntos!
                     </p>
                     <div className="max-w-2xl mx-auto mt-10 flex items-center gap-4">
-                        <Link href='/public'>
+                        <Link href='https://www.linkedin.com/in/bruno-jsc/' target="_blank">
                             <LinkedinIcon/>
                         </Link>
-                        <Link href='/public'>
+                        <Link href='https://github.com/BrunoJSC' target="_blank">
                             <LucideGithub/>
                         </Link>
                     </div>

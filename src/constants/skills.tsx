@@ -1,6 +1,16 @@
 import {FaReact} from 'react-icons/fa';
 import {FaNodeJs} from 'react-icons/fa';
-import {SiNextdotjs, SiPrisma, SiPython, SiReact, SiPostgresql, SiJavascript, SiTypescript, SiGit} from 'react-icons/si';
+import {
+    SiNextdotjs,
+    SiPrisma,
+    SiPython,
+    SiReact,
+    SiPostgresql,
+    SiJavascript,
+    SiTypescript,
+    SiGit,
+    SiSwift
+} from 'react-icons/si';
 
 
 export const mySkills = [
@@ -44,4 +54,8 @@ export const mySkills = [
         name: "Git",
         icon: <SiGit />
     },
+    {
+        name: "swiftUI",
+        icon: <SiSwift />
+    }
 ]
