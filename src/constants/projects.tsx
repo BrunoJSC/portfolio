@@ -1,5 +1,5 @@
 import {
-    SiCss3,
+    SiCss3, SiExpo,
     SiFirebase,
     SiGithub, SiGooglechrome,
     SiJavascript,
@@ -17,7 +17,7 @@ export const projects = [
         image: "/netflix.png",
         link: "https://github.com/BrunoJSC/netflix-clone",
         technologies: [
-            {icon: <SiReact />, name: "React.js"},
+            {icon: <SiReact/>, name: "React.js"},
             {icon: <SiNextdotjs key="nextjs"/>, name: "Next.js"},
             {icon: <SiTypescript key="typescript"/>, name: "TypeScript"},
             {icon: <SiTailwindcss key="tailwindcss"/>, name: "Tailwind CSS"}
@@ -26,13 +26,11 @@ export const projects = [
     {
         id: 2,
         name: "React Quiz",
-        description: "Claro! Aqui está uma descrição concisa para o projeto \"React Quiz\":\n" +
-            "\n" +
-            "\"O 'React Quiz' é uma aplicação interativa desenvolvida em React.js e TypeScript, oferecendo um ambiente dinâmico para testes de conhecimentos variados. Com design responsivo utilizando CSS3, é ideal para quem busca aprimorar habilidades em desenvolvimento web e lógica de programação através de quizzes.\"",
+        description: "\"O 'React Quiz' é uma aplicação interativa desenvolvida em React.js e TypeScript, oferecendo um ambiente dinâmico para testes de conhecimentos variados. Com design responsivo utilizando CSS3, é ideal para quem busca aprimorar habilidades em desenvolvimento web e lógica de programação através de quizzes.\"",
         image: "/quiz.png",
         link: "https://github.com/BrunoJSC/react-quiz",
         technologies: [
-            {icon: <SiReact />, name: "React.js"},
+            {icon: <SiReact/>, name: "React.js"},
             {icon: <SiTypescript key="typescript"/>, name: "TypeScript"},
             {icon: <SiCss3 key="css3"/>, name: "CSS3"}
         ]
@@ -40,14 +38,12 @@ export const projects = [
     {
         id: 3,
         name: "Summarize",
-        description: "Aqui está uma descrição concisa para o projeto \"Summarize\":\n" +
-            "\n" +
-            "\"O 'Summarize' é uma aplicação desenvolvida em React.js que utiliza JavaScript e Tailwind CSS para criar resumos de textos com a ajuda da inteligência artificial da OpenAI. Ideal para estudantes e profissionais que desejam otimizar a compreensão de grandes volumes de texto rapidamente.\"",
+        description: "\"O 'Summarize' é uma aplicação desenvolvida em React.js que utiliza JavaScript e Tailwind CSS para criar resumos de textos com a ajuda da inteligência artificial da OpenAI. Ideal para estudantes e profissionais que desejam otimizar a compreensão de grandes volumes de texto rapidamente.\"",
         image: "/summarize.png",
         link: "https://github.com/BrunoJSC/AI-Summarizer-app",
         technologies: [
-            {icon: <SiJavascript />, name: "JavaScript"},
-            {icon: <SiReact />, name: "React.js"},
+            {icon: <SiJavascript/>, name: "JavaScript"},
+            {icon: <SiReact/>, name: "React.js"},
             {icon: <SiTailwindcss key="tailwindcss"/>, name: "Tailwind CSS"},
             {icon: <SiOpenai key="openai"/>, name: "Open AI"}
         ]
@@ -59,10 +55,26 @@ export const projects = [
         image: "/list.png",
         link: "https://github.com/BrunoJSC/lista-de-tarefas",
         technologies: [
-            {icon: <SiTypescript />, name: "TypeScript"},
-            {icon: <SiReact />, name: "React.js"},
+            {icon: <SiTypescript/>, name: "TypeScript"},
+            {icon: <SiReact/>, name: "React.js"},
             {icon: <SiTailwindcss key="tailwindcss"/>, name: "Tailwind CSS"},
             {icon: <SiGooglechrome key="google"/>, name: "Google Chrome"}
         ]
+    },
+
+    {
+        id: 5,
+        name: "Aora App",
+        description: "O 'Aora' é uma aplicação avançada projetada para o compartilhamento de vídeos, utilizando as mais recentes tecnologias de desenvolvimento web e mobile. Destaca-se pelo suporte a upload e gerenciamento de vídeos através de uma interface amigável e intuitiva. Desenvolvido com frameworks modernos como React Native e Expo, o Aora é ideal para criadores de conteúdo e usuários que desejam interagir através de mídia visual em uma plataforma digital acessível e inovadora.",
+        image: "/mobile1.png",
+        link: "https://github.com/BrunoJSC/lista-de-tarefas",
+        technologies: [
+            {icon: <SiTypescript/>, name: "TypeScript"},
+            {icon: <SiReact/>, name: "React Native"},
+            {icon: <SiExpo key="google"/>, name: "Google Chrome"},
+            {icon: <SiTailwindcss key="tailwindcss"/>, name: "Tailwind CSS"},
+
+        ]
     }
+
 ]
